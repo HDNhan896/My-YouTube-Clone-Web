@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  position: fixed;
+  height: 56px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 1px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.youtube-logo {
+  cursor: pointer;
+  height: 20px;
+}
+
+.middle-header {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 470px;
+  margin-left: 60px;
+}
+
+.search-bar {
+  font-family: Arial, sans-serif;
+  padding-left: 12px;
+  font-size: 16px;
+  height: 36px;
+  flex: 1;
+  width: 0px;
+  min-width: 0px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  margin-right: 10px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid rgb(204, 204, 204);
+  border-left: none;
+  height: 40px;
+  width: 64px;
+  cursor: pointer;
+}
+
+.micro-button {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 182px;
+  margin-left: 29px; 
+  margin-right: 24px; 
+}
+
+.right-header * {
+  cursor: pointer;
+}
+
+.right-header img{
+  height: 24px;
+}
+
+
+.right-header .user-img {
+  border-radius: 50px;
+  height: auto;
+  width: 34px;
+}
